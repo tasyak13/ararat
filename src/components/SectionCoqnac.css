@@ -1,0 +1,162 @@
+article.coqnac {
+    width: 100%;
+    background-color: #E6E3C4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 1038px;
+
+    @media (max-width: 674px) {
+        padding-top: 80px;
+        height: 1080px;
+       }
+}
+
+hr.line-section {
+    width: 1110px;
+    height: 1px;
+    background-color: #998431;
+    border: 0px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+
+    @media (max-width: 674px) {
+        width: 555px;
+       }
+}
+
+div.coqnac-item {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 674px) {
+        flex-direction: column-reverse;
+       }
+}
+
+div.coqnac-about {
+    width: 445px;
+}
+
+p.coqnac-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+h3.proces {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #282828;
+    padding-bottom: 30px;
+}
+
+hr.coqnac-line {
+    width: 160px;
+    height: 1px;
+    background-color: #000000;
+    border: none;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 445px;
+    height: 228px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    @media (max-width: 674px) {
+        display: none;
+       }
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+  
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+    width: 75px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
+    vertical-align: middle;
+    padding-left: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #282828;
+}
+
+p.table-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
+
+div.button-coqnac {
+    margin-top: 60px;
+    margin-bottom: 140px;
+
+    @media (max-width: 674px) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 150px;
+       }
+}
+
+hr.line-section-second {
+    width: 1110px;
+    height: 1px;
+    background-color: #998431;
+    border: 0px;
+
+    @media (max-width: 674px) {
+        display: none;
+       }
+}
+
+div.coqnac-img {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media (max-width: 674px) {
+        width: 555px;
+        height: 361px;
+       }
+}
+
+div.coqnac-img-small {
+    display: flex;
+    gap: 30px;
+
+    @media (max-width: 674px) {
+        display: none;
+       }
+}

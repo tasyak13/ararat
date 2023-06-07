@@ -1,0 +1,84 @@
+header {
+    background-image: url(../img/ararat.png);
+    width: 100%;
+    max-width: 1920px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    object-fit: cover;
+
+    @media (max-width: 674px) {
+        width: 674px;
+        height: 567px;
+        background-position: center;
+       }
+    
+  }
+  
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+
+    @media (max-width: 674px) {
+        width: 555px;
+       }
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 70px;
+    border-bottom: 1px solid black;
+
+    @media (max-width: 674px) {
+        width: 555px;
+       }
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    height: 47px;
+    align-items: center;
+    justify-content: space-around; 
+    border-bottom: 1px solid black;
+
+    @media (max-width: 674px) {
+        width: 555px;
+       }
+}
+
+div.button {
+    display: flex;
+    gap: 10px;
+    padding-top: 583px;
+    padding-left: 760px;
+
+    @media (max-width: 674px) {
+        flex-direction: column;
+        padding-top: 231px;
+        padding-left: 373px;
+       }
+}
+
+a {
+    background-color: #99862A;
+    height: 50px;
+    gap: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
